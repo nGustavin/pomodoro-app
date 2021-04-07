@@ -28,9 +28,11 @@ def pomodoro():
 
     time.sleep(interval)
 
-    n.update('Finishing up!', 'You finish that job, go take some air, walk a little bit, get the eyes off the screen')
+    n.update('Finishing up!', 'You finish that job, go take some air, walk a little bit, get the eyes off the screen, in five minutes come back to work')
 
     n.show()
+
+    time.sleep(300)
 
 
 while True:
